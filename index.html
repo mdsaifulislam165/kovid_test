@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kovid | Home</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<!-- header start -->
+	<header class="conatainer-fluid">
+		<div class="container">
+			<!-- nav start -->
+			<nav>
+				<a href="index.html" class="navbar-brand">
+					K<i class="fab fa-keycdn"></i>vid
+				</a>
+				<div class="navbar">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="index.html">About</a>
+						</li>
+						<li>
+							<a href="index.html">Shop</a>
+						</li>
+						<li>
+							<a href="index.html">Gallery</a>
+						</li>
+						<li>
+							<a href="index.html">Contact</a>
+						</li>
+						<li>
+							<a href="index.html">
+								<i class="fa-solid fa-magnifying-glass"></i>
+								Search
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- nav end -->
+			<!-- banner start -->
+			<section class="banner">
+				<div class="banner-content">
+					<h1>Prevent the Spread Stay at Home, Stay Safe</h1>
+					<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate</p>
+					<a href="#">Read More</a>
+				</div>
+			</section>
+			<!-- banner end -->
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- covid-counter start -->
+	<section class="conatainer-fluid covid-counter">
+		<div class="container counter">
+			<!-- single item start -->
+			<div class="counter-content">
+				<i class="fab fa-keycdn"></i>
+				<h2><span class="count-num">1233100</span></h2>
+				<p>Active Cases</p>
+			</div>
+			<!-- single item end -->
+			<!-- single item start -->
+			<div class="counter-content">
+				<i class="fas fa-users"></i>
+				<h2><span class="count-num">182020</span></h2>
+				<p>Recovered Cases</p>
+			</div>
+			<!-- single item end -->
+			<!-- single item start -->
+			<div class="counter-content">
+				<i class="fas fa-skull-crossbones"></i>
+				<h2><span class="count-num">71912</span></h2>
+				<p>Total Deaths</p>
+			</div>
+			<!-- single item end -->
+			<!-- single item start -->
+			<div class="counter-content">
+				<i class="fas fa-crutch"></i>
+				<h2><span class="count-num">11912</span></h2>
+				<p>Vaccination</p>
+			</div>
+			<!-- single item end -->
+		</div>
+	</section>
+	<!-- covid-counter end -->
+	<!-- SCRIPT STARTS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="https://www.jqueryscript.net/demo/count-up-visible-rcounterup/assets/js/jquery.rcounterup.js"></script>
+	<script>
+		$(function(){
+			$('.count-num').rCounter({
+				duration: 30
+			});
+		});
+	</script>
+</body>
+</html>

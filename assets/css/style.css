@@ -1,0 +1,140 @@
+/*common code start*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;800&display=swap');
+body{
+	font-family: 'Kumbh Sans', sans-serif;
+	margin: 0px;
+}
+.conatainer-fluid{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 85%;
+	margin: 0px auto;
+}
+/*common code end*/
+
+/*header start*/
+header{
+	background: radial-gradient(circle, rgba(57, 52, 100, 0.5), rgba(0,0,0,0.5)) ,url(../img/banner.jpg);
+	background-size: cover;
+}
+/*nav start*/
+nav{
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	text-decoration: none;
+}
+.navbar-brand i{
+	color: #E72729;
+}
+.navbar ul{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .5s;
+}
+.navbar ul li a:hover{
+	color: #E32B2B;
+}
+.navbar ul li:last-child a{
+	transition: .5s;
+	border-radius: 10px;
+	border: 2px solid #fff;
+}
+.navbar ul li:last-child a i{
+	margin-right: 6px;
+}
+.navbar ul li:last-child a:hover{
+	background: #fff;
+}
+/*nav end*/
+
+/*banner start*/
+.banner{
+	width: 100%;
+}
+.banner-content{
+	max-width: 700px;
+	padding: 165px 0px;
+}
+.banner-content h1{
+	color: #fff;
+	font-size: 50px;
+	margin: 0px;
+}
+.banner-content p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.banner-content a{
+	color: #fff;
+	font-size: 18px;
+	transition: .5s;
+	padding: 15px 30px;
+	background: #E32B2B;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.banner-content a:hover{
+	background: #ad1c1c;
+}
+/*banner end*/
+/*header end*/
+/*covid counter start*/
+.covid-counter{
+	padding: 70px 0px;
+}
+.counter{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.counter-content{
+	width: 225px;
+	/*border: 1px solid;*/
+}
+.counter-content i{
+	padding: 30px;
+	color: #E32B2B;
+	font-size: 30px;
+	border-radius: 50%;
+	background: #F7F7F7;
+}
+.counter-content h2{
+	margin: 15px 0px;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.counter-content p{
+	margin: 0px;
+	color: #E32B2B;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+/*covid counter end*/
